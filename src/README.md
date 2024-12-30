@@ -2,12 +2,11 @@
 
 ## Overview
 
-The Payroll Processing System is designed to handle the upload and processing of payroll data files. 
-It processes the uploaded files and generate reports based on the data.
+The Payroll Processing System is designed to handle the upload and processing of payroll data files. It parses the uploaded files, processes employee events, and generates various reports based on the data.
 
 ## Components
 
-### Controller:
+### Controller Layer
 
 - **PayrollController**: Handles HTTP POST requests to upload multiple files. It processes each file through the `PayrollService` and returns a response indicating the success or failure of each file upload.
 
